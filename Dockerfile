@@ -5,8 +5,8 @@ COPY pom.xml .
 COPY src ./src
 RUN mvn clean package
 
-# --- Stage 2: Run Tomcat 11 (Matches your local Eclipse environment) ---
-FROM tomcat:11.0-jdk17-openjdk-slim
+# --- Stage 2: Run Tomcat 11 (Corrected Docker Hub Image Tag) ---
+FROM tomcat:11.0-jdk17-slim
 RUN rm -rf /usr/local/tomcat/webapps/*
 # Copy the freshly compiled WAR file from Stage 1
 COPY --from=build /app/target/ROOT.war /usr/local/tomcat/webapps/
