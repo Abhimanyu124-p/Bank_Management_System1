@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Customer Support - Bank Management System</title>
+    <title>Customer Support-State Bank</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/CssFolder/support.css">
 </head>
 <body>
