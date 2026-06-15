@@ -17,7 +17,7 @@
      Available Balance: <strong>₹ ${String.format("%,.2f", sessionScope.balance)}</strong>
   </div>
  <div class="msg">
-   <strong>Failed Transferring ₹ ${String.format("%,.2f", sessionScope.amt)} to Account Number: ${sessionScope.recipient_no}</strong>
+   <strong>Failed Transferring ₹ ${String.format("%,.2f", sessionScope.amt)} to Account Number: ${sessionScope.recipient_no}</strong><br>
    No Account with Account Number "${sessionScope.recipient_no}" exists
  </div>
  <a href="${pageContext.request.contextPath}\Dashboard.jsp" class="goBack">Go Back To Dashboard</a>
