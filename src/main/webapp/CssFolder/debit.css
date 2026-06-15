@@ -1,0 +1,93 @@
+@charset "UTF-8";
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .deposit-container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 480px;
+        }
+        .bank-logo {
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: #0056b3;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin: 0 0 25px 0;
+            font-size: 24px;
+        }
+        .account-summary {
+            background-color: #fdf0f0;
+    border-left: 5px solid #a31616;
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: #651616;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #334155;
+            font-size: 14px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 15px;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #16a34a;
+        }
+        .btn-deposit {
+            width: 100%;
+            background-color: #a31616;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .btn-deposit:hover {
+            background-color:#801515;
+        }
+        .btn-back {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .btn-back:hover {
+            color: #334155;
+            text-decoration: underline;
+        }

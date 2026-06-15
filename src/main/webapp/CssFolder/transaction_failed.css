@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+     font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+    }
+.container{
+           background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 500px;
+          }
+.bnk-logo{
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: #0056b3;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+         }
+ .main-msg{
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: #640000;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+     }
+ .current-balance-box{
+           background-color: #eef5ee;
+           border-left: 5px solid #00b31d;
+           padding: 12px 15px;
+           border-radius: 4px;
+           margin-bottom: 25px;
+           font-size: 15px;
+           color: #4e6947; 
+                 }
+  .msg{
+      margin-bottom: 10px;
+      font-size: large;
+      font-weight: 300;
+      }
+  .goBack{
+        display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 14px;
+        margin-bottom: 10px;
+         }
+     .goBack:hover{
+                 color:blue;
+                 text-decoration:underline;
+                  }

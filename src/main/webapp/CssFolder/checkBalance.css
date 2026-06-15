@@ -1,0 +1,103 @@
+@charset "UTF-8";
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .balance-container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+        }
+        .bank-brand {
+            font-size: 14px;
+            font-weight: bold;
+            color: #0056b3;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin: 0 0 20px 0;
+            font-size: 22px;
+        }
+        .account-card {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: left;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(30, 60, 114, 0.3);
+        }
+        .acc-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #cbd5e1;
+        }
+        .acc-number {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 5px 0 20px 0;
+            letter-spacing: 1px;
+        }
+        .balance-display {
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 5px;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #eef2f5;
+            padding: 12px 0;
+            font-size: 15px;
+        }
+        .info-label {
+            color: #666;
+        }
+        .info-value {
+            color: #333;
+            font-weight: 600;
+        }
+        .btn-group {
+            margin-top: 25px;
+            display: flex;
+            gap: 10px;
+        }
+        .btn {
+            flex: 1;
+            padding: 12px;
+            font-size: 15px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background-color: #0056b3;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #004085;
+        }
+        .btn-secondary {
+            background-color: #e2e8f0;
+            color: #334155;
+        }
+        .btn-secondary:hover {
+            background-color: #cbd5e1;
+        }

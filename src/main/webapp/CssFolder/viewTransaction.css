@@ -1,0 +1,46 @@
+@charset "UTF-8";
+        body { 
+        font-family: Arial, sans-serif; 
+        background: #f4f6f9; 
+        padding: 30px; 
+        }
+        .table-container { 
+        max-width: 850px; 
+        margin: 0 auto; 
+        background: white; 
+        padding: 25px; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+        }
+        h2 { 
+        color: #0056b3; 
+        margin-top: 0; 
+        }
+        table { 
+        width: 100%; 
+        border-collapse: collapse; 
+        margin-top: 15px; 
+        }
+        th, td { 
+        padding: 12px; 
+        text-align: left; 
+        border-bottom: 1px solid #ddd;
+        }
+        th { 
+        background-color: #0056b3; 
+        color: white; 
+        }
+        .DEPOSIT { 
+        color: #16a34a; 
+        font-weight: bold; 
+        }
+        .WITHDRAWAL, .TRANSFER { 
+        color: #dc3545; 
+        font-weight: bold; 
+        }
+        .btn-back { 
+        display: inline-block; 
+        margin-top: 20px; 
+        text-decoration: none; 
+        color: #555; 
+        }
