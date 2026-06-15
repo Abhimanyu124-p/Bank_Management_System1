@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Account</title>
+ <style>
+   body {
+      background-image: url(https://www.nelsonmullins.com/storage/4oWnpn9tVo1G7Qzs3WoOdzMtgMrgxpFP75fXcBzD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+     background: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 20px 0;
+    max-width: 600px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+    margin-bottom: 18px;
+    color: #2c3e50;
+    }
+
+    .form-group {
+          margin-bottom: 14px;
+    }
+
+    .form-group label {
+        display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+    }
+
+    .form-group input,
+    .form-group select {
+         width: 93%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+      border-color: #2980b9;
+      outline: none;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 0.8rem;
+      background: #2980b9;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #1f6391;
+    }
+        .form-container a{
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 14px;
+                       }
+          .form-container a:hover{
+            color:blue;
+            text-decoration:underline;
+          }
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 1rem;
+      }
+      .form-group label {
+        font-size: 0.9rem;
+      }
+      .form-group input,
+      .form-group select {
+        font-size: 0.9rem;
+      }
+     }
+ </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Create New Account</h2>
+    <form action="Accountservlet" method="post">
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email (for account reference)</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="accountType">Account Type</label>
+        <select id="accountType" name="accountType" required>
+          <option value="">Select Type</option>
+          <option value="Savings">Savings</option>
+          <option value="Current">Current</option>
+        </select>
+      </div>
+      
+       <div class="form-group">
+        <label for="pin">Set Pin:</label>
+        <input type="password" inputmode="numeric" pattern="\d{6}" maxlength="6" title="Pin must be numeric and 6 digits long." id="pin" name="pin" placeholder="Enter 6-digit pin for your new account" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="deposit">Initial Deposit</label>
+        <input type="number" id="deposit" name="deposit" min="0" required>
+      </div>
+
+      <div class="form-group">
+        <label for="branch">Branch</label>
+        <input type="text" id="branch" name="branch" required>
+      </div>
+
+      <button type="submit" class="btn">Create Account</button>
+    </form>
+    <a href="Dashboard.jsp" class="goBack">Cancel & Go Back</a>
+  </div>
+</body>
+</html>
