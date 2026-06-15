@@ -14,9 +14,7 @@
         <div>
             <strong>🚨 Emergency: Lost Card or Suspected Fraud?</strong> Call us immediately at 1-800-111-9999 or freeze your account.
         </div>
-        <form action="${pageContext.request.contextPath}/FreezeAccountServlet" method="POST">
-            <button type="submit" class="emergency-btn">Freeze Account Now</button>
-        </form>
+        
     </div>
 
     <h2>How can we help you, ${sessionScope.username}?</h2>
