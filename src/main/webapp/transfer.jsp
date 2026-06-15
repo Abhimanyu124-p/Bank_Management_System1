@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fund Transfer - SBI</title>
+    <title>Fund Transfer-State Bank</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/CssFolder/transfer.css">
     <script>
         // Simple front-end validation check
