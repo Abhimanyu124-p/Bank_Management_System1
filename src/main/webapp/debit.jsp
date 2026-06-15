@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deposit / Credit Funds - SBI</title>
+    <title>Withdraw Funds-State Bank</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/CssFolder/debit.css">
     <script>
         function validateDeposit() {
