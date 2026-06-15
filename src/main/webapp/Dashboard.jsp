@@ -33,7 +33,6 @@
     <a href="credit.jsp">Deposit</a>
     <a href="transfer.jsp">Transfer</a>
     <a href="${pageContext.request.contextPath}/ViewTransactions">View Transactions</a>
-    <a href="employee.jsp">Employee</a>
     <c:if test="${not empty sessionScope.username}"><a href="logoutservlet">Logout</a></c:if>
     <c:if test="${empty sessionScope.username}"><a href="Login.jsp">Login</a></c:if>
   </div>
