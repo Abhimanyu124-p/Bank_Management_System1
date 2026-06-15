@@ -1,0 +1,14 @@
+# Ignore Eclipse internal configuration metadata
+.metadata/
+.classpath
+.project
+.settings/
+RemoteSystemsTempFiles/
+
+# Ignore local build outputs
+bin/
+build/
+target/
+
+# Ignore local server runtimes
+.recommenders/
