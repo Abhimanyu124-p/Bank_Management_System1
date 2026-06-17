@@ -25,7 +25,7 @@ public class Register extends HttpServlet{
 
                 if (rowsAffected == 1) {
                     out.println("<h1>User Registered Successfully!</h1>");
-                    out.println("<input type='button' value='Go to Login' onclick=\"window.location.href='login.html';\">");
+                    out.println("<input type='button' value='Go to Login' onclick=\"window.location.href='Login.jsp';\">");
                 } else {
                     out.println("<h1>User already exists!</h1>");
                 }
