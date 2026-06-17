@@ -43,7 +43,7 @@ public class AccountCreation extends HttpServlet {
                 return;
             }
 
-            String checkQuery = "SELECT user_id FROM users JOIN accounts ON users.user_id = accounts.user_id WHERE phone_no = ? OR email = ?";
+            String checkQuery = "SELECT users.user_id FROM users JOIN accounts ON users.user_id = accounts.user_id WHERE phone_no = ? OR email = ?";
             try (PreparedStatement stmt = con.prepareStatement(checkQuery)) {
                 stmt.setString(1, phone_no);
                 stmt.setString(2, email);
