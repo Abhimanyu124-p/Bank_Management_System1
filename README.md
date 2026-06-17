@@ -71,7 +71,7 @@ To run this project locally on your machine using an IDE (like NetBeans or Eclip
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   git clone [https://github.com/Abhimanyu124-p/Bank_Management_System1.git](https://github.com/Abhimanyu124-p/Bank_Management_System1.git)
 Configure Database:
 Import the project SQL schema into your local MySQL instance.
 
